@@ -2,9 +2,7 @@
 
 ```typescript
 // DataTables v2 ve üzeri için geçerlidir
-// datatables auto type detection açıksa çalışır (varsayılan açıktır)
-
-DataTable.Buttons.jszip(jszip);
+// auto type detection açıksa çalışır (varsayılan açıktır)
 
 DataTable.ext.buttons.excelHtml5.exportOptions = { orthogonal: 'excelExport' };
 
@@ -27,3 +25,4 @@ DataTable.type('num', {
   },
 });
 ```
+
